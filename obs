@@ -1,0 +1,116 @@
+não faz sentido eu tentar reenviar uma data para um vizinho, se esse vizinho não participa da rota.
+a data pode acabar sendo desviada drasticamente de seu caminho até o destino.
+
+# 50 D120 	S57
+[Config D1_N50]
+**.numHosts = 50
+sim-time-limit = 86400s # 1 day
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+
+[Config D2_N50]
+**.numHosts = 50
+sim-time-limit = 172800s # 2 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+
+[Config D3_N50]
+**.numHosts = 50
+sim-time-limit = 259200s # 3 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+############################## 30 NOS ############################################
+# 50 D120 	S57
+[Config D1_N30]
+**.numHosts = 30
+sim-time-limit = 86400s # 1 day
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+
+[Config D2_N30]
+**.numHosts = 30
+sim-time-limit = 172800s # 2 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+
+[Config D3_N30]
+**.numHosts = 30
+sim-time-limit = 259200s # 3 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+###############################################################################
+
+# 50 D120 	S57
+[Config D1_N50]
+**.numHosts = 50
+sim-time-limit = 86400s # 1 day
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+
+[Config D2_N50]
+**.numHosts = 50
+sim-time-limit = 172800s # 2 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+
+[Config D3_N50]
+**.numHosts = 50
+sim-time-limit = 259200s # 3 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 57
+**.host[*].netwl.destination = 120
+**.host[*].appl.destination = 120
+**.host[*].appl.source_addr = 57
+############################## 30 NOS ############################################
+# 50 D120 	S57
+[Config D1_N30]
+**.numHosts = 30
+sim-time-limit = 86400s # 1 day
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+
+[Config D2_N30]
+**.numHosts = 30
+sim-time-limit = 172800s # 2 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+
+[Config D3_N30]
+**.numHosts = 30
+sim-time-limit = 259200s # 3 days
+# host 0 sent to host 7
+**.host[*].netwl.source_addr = 37
+**.host[*].netwl.destination = 100
+**.host[*].appl.destination = 100
+**.host[*].appl.source_addr = 37
+###############################################################################
