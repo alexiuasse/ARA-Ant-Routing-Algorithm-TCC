@@ -1,2 +1,6 @@
 # meu-tcc
-Meu código de TCC
+Código fonte do meu trabalho de conclusão de curso.
+
+Protocolo de roteamento baseado em swarm intelligence
+
+ARA - Ant Routing Algorithm
